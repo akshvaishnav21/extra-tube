@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Minimal Activity base theme.
+        NoActionBar: Compose renders its own top-level surface; a system ActionBar
+        would cause double-rendering artifacts (two top bars visible).
+
+        Actual theming (colors, typography, shapes) is fully managed in Compose via
+        ExtraTubeTheme { darkColorScheme() } — always dark, no system theme check.
+    -->
+    <style name="Theme.ExtraTube" parent="android:Theme.Black.NoTitleBar" />
+</resources>

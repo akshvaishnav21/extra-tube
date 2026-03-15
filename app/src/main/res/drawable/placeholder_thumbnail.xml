@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Coil placeholder shown while a thumbnail is loading.
+    Matches the shimmer base color (0xFF2A2A2A) so the transition is seamless.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#2A2A2A" />
+    <corners android:radius="4dp" />
+</shape>

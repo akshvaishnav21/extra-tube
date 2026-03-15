@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExtraTube</string>
+
+    <!-- Search screen -->
+    <string name="search_hint">Search YouTube…</string>
+    <string name="search_no_results">No results found</string>
+    <string name="search_idle_prompt">Search for videos, channels, or topics</string>
+
+    <!-- Error messages -->
+    <string name="error_network">Check your internet connection and try again.</string>
+    <string name="error_extraction">Could not load video. YouTube may have changed.</string>
+    <string name="error_region">This video is not available in your region.</string>
+    <string name="error_age_restricted">This video requires age verification.</string>
+    <string name="error_generic">Something went wrong. Please retry.</string>
+    <string name="error_no_video_stream">No suitable video stream found.</string>
+    <string name="error_no_audio_stream">No suitable audio stream found.</string>
+
+    <!-- Player -->
+    <string name="player_loading">Loading video…</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_skip_forward">Skip forward 10 seconds</string>
+    <string name="action_skip_backward">Skip back 10 seconds</string>
+    <string name="action_fullscreen">Fullscreen</string>
+    <string name="action_exit_fullscreen">Exit fullscreen</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_id">extratube_playback</string>
+    <string name="notification_channel_name">Playback</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_thumbnail">Video thumbnail</string>
+    <string name="cd_error_icon">Error</string>
+</resources>

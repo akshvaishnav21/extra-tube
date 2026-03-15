@@ -1,0 +1,43 @@
+### Android ###
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local configuration file (SDK path — never commit)
+local.properties
+
+# Signing keystores — NEVER commit to version control
+*.jks
+*.keystore
+
+# Build output
+build/
+app/build/
+
+# Gradle cache and wrapper (keep gradle-wrapper.properties, exclude binaries)
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin compiler sessions
+.kotlin/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Log files
+*.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

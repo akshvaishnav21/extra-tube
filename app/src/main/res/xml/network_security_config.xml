@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Enforces HTTPS-only for all network traffic.
+    YouTube and all its CDNs (googlevideo.com, yt3.ggpht.com, etc.) use HTTPS.
+    NewPipeExtractor's OkHttpDownloader makes all calls to HTTPS endpoints.
+    No cleartext HTTP is needed or permitted.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
