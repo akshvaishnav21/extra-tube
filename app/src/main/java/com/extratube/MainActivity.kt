@@ -8,11 +8,8 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.app.ActivityCompat
 import androidx.core.view.WindowCompat
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Text
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.dp
+import com.extratube.presentation.navigation.NavGraph
+import com.extratube.presentation.theme.ExtraTubeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 /**
@@ -47,11 +44,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            Text(
-                text = "ExtraTube",
-                color = Color.White,
-                modifier = Modifier.padding(24.dp)
-            )
+            ExtraTubeTheme {
+                NavGraph()
+            }
         }
     }
 
